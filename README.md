@@ -1,16 +1,61 @@
-# React + Vite
+## Notes App Frontend (Google Keep Clone)
+This is the frontend application for a Notes App, similar to Google Keep. It is built using React and provides a user-friendly interface for creating, viewing, editing, and deleting notes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Features
+- Create, read, update, and delete notes
+- Responsive design for mobile and desktop
+- Search and filter notes (if implemented)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-## React Compiler
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone
+    ```
+2. Navigate to the frontend directory:
+    ```bash
+    cd frontend
+    ```
+3. Install the dependencies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
 
-## Expanding the ESLint configuration
+### Running the Application
+To start the development server, run:
+```bash
+npm start
+```
+or
+```bash
+yarn start
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application will be available at `http://localhost:3000`.
+
+### Building for Production
+To create a production build of the application, run:
+```bash
+npm run build
+```
+or
+```bash
+
+yarn build
+```
+
+The optimized build will be located in the `build` directory.
+### Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+### License
+This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
