@@ -32,9 +32,7 @@ const items = [
     id: "archive",
     label: "Archive",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        <path d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27z"></path>
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM6.24 5h11.52l.83 1H5.42l.82-1zM5 19V8h14v11H5zm11-5.5l-4 4-4-4 1.41-1.41L11 13.67V10h2v3.67l1.59-1.59L16 13.5z"></path></svg>
     ),
   },
   {
@@ -54,8 +52,9 @@ const Sidebar = () => {
   return (
     <div
       className="
-    group bg-white h-full flex flex-col mt-0.5
+    group bg-white h-full flex flex-col 
     w-16 hover:w-64
+    hover:shadow-[0_4px_12px_rgba(0,0,0,0.20)]
     transition-all duration-200 ease-out
   "
     >
@@ -83,7 +82,7 @@ const Sidebar = () => {
               <div
                 className="
               w-10 h-10 flex items-center justify-center
-              flex-shrink-0 rounded-full
+              shrink-0 rounded-full
             "
               >
                 {item.icon}

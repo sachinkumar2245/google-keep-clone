@@ -6,7 +6,7 @@ import Input from "./ui/Input";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-1/13 flex gap-1 bg-gray-100">
+    <nav className="border-b border-gray-300 w-full h-1/13 flex gap-1 bg-white">
       {/*  Left section*/}
       <HamburgerIcon />
       <Logo />
