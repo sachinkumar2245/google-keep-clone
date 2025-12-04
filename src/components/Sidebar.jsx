@@ -52,8 +52,9 @@ const Sidebar = () => {
   return (
     <div
       className="
+    absolute top-[49px] left-0 rounded
     group bg-white h-full flex flex-col 
-    w-16 hover:w-64
+    w-16 hover:w-68
     hover:shadow-[0_4px_12px_rgba(0,0,0,0.20)]
     transition-all duration-200 ease-out
   "
@@ -65,7 +66,7 @@ const Sidebar = () => {
           <button
             key={item.id}
             onClick={() => setActive(item.id)}
-            className="w-full my-1 focus:outline-none"
+            className="w-full my-1 cursor-pointer focus:outline-none"
           >
             <div
               className={`

@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='w-full h-screen bg-white flex flex-col'>
       <Navbar/>
-      <div className='flex w-full h-full'>
+      <div className='flex w-full h-full justify-center'>
         <Sidebar/>
         <Home/>
       </div>
